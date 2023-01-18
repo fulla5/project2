@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 0 16px;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.left img {
+    width:30% ;
+    height: 30%;
+    padding-left: 15px;
+
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.center form{
+    display: flex;
+    height: 42px;
+    width:628px ;
+
+}
+
+.center form input{
+    width: 100%;
+    border-radius:4px 0 0 4px;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 1px solid rgb(179, 169, 169) ;
+}
+
+.center form button {
+    width: 65px;
+    border: 1px solid rgb(179, 169, 169) ;
+    border-radius:0 4px 4px 0;
+    background-color: rgba(191, 189, 189, 0.381);
+    cursor: pointer;
+    padding-top: 4px;
+
+
+}
+
+.center form button :hover {
+    background-color: #dcdcdc;
+
+}
+.center .mic{
+    width: 42px;
+    height: 42px;
+    border-radius:50px;
+    border: 1px solid rgb(179, 169, 169) ;
+    background-color: rgba(191, 189, 189, 0.381);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.right a {
+    padding-right: 16px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+/* start content-area */
+
+
+.content-area {
+    height: calc(100vh - 55px) ;
+    display: flex;
+    background-color: rgb(238, 236, 236);
+}
+
+aside {
+    height: 100%;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+nav {
+    width: 100%;
+    flex-direction: column;
+    margin: 15px;
+    padding-right: 15px;
+    height: 300px;
+
+}
+
+nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(96, 2, 2);
+
+}
+
+nav :hover{
+
+    background-color: #f1f1f1;
+}
+.nav-link span {
+    margin-left: 23px;
+    font-size: 1.6rem;
+    line-height: 2em;
+    font-weight: 400;
+    color: #000;
+
+}
+.active {
+    background-color: rgb(238, 236, 236);
+}
+
+.worde{
+    font-size: 1.6rem;
+    color: rgb(122, 121, 121); 
+ 
+    
+}
+
+
+.my-tuob{
+  display: flex;
+    
+
+}
+
+.my-tuob img:hover{
+    transform: scale(1.1);
+}
